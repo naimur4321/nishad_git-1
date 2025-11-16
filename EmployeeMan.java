@@ -27,8 +27,6 @@ public class EmployeeMan ager {
                 System.out.println(l);
                 String e[] = l.split(",");
                 Random rand = new Random();
-                int idx = rand.nextInt(e.length);
-                System.out.println(e[idx]);
             } catch (Exception e) {}
             System.out.println("Data Loaded.");
         } else if (args[0].contains("+")) {
